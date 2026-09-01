@@ -1,0 +1,7 @@
+# Legacy challenge-runtime example. Use Python 3.8-3.10; these wheels are not
+# available for Python 3.11. Prefer a torch/torchvision pair matching the
+# actual training server when its driver/runtime differs.
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+-r requirements.txt
